@@ -7,7 +7,7 @@ header('Content-Type: application/json');
 
 $text = $_GET['text'];
 
-$jsonTodoList = file_get_contents($todoList);
+$jsonTodoList = file_get_contents("todo.json");
 $todoList = json_decode($jsonTodoList);
 
 $todoList[] = [
