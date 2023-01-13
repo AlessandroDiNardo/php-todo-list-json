@@ -1,18 +1,18 @@
 [
     {
-        "text": "todo 1",
-        "completed": true
-    },
-    {
-        "text": "todo 2",
-        "completed": true
-    },
-    {
-        "text": "todo 3",
+        "text": "HTML",
         "completed": false
     },
     {
-        "text": "todo 4",
+        "text": "CSS",
+        "completed": false
+    },
+    {
+        "text": "   JS",
+        "completed": false
+    },
+    {
+        "text": "PHP",
         "completed": false
     }
 ]

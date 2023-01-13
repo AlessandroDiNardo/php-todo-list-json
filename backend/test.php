@@ -2,19 +2,19 @@
 
     $todoList = [
         [
-            "text" => "todo 1",
+            "text" => "CSS",
             "completed" => true
         ],
         [
-            "text" => "todo 2",
+            "text" => "HTML",
             "completed" => true
         ],
         [
-            "text" => "todo 3",
+            "text" => "PHP",
             "completed" => false
         ],
         [
-            "text" => "todo 4",
+            "text" => "JS",
             "completed" => false
         ]
     ];
