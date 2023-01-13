@@ -14,5 +14,10 @@ export default {
 </template>
 
 <style>
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(180, 92, 92);
+}
 </style>
