@@ -17,7 +17,7 @@ export default {
 
     getData() {
 
-      axios.post(apiUrl + "api.php")
+      axios.get(apiUrl + "api.php")
         .then(res => {
 
           const data = res.data;
@@ -71,10 +71,10 @@ export default {
 
         <div class="btn-check-remove">
           <!-- btn done -->
-          <font-awesome-icon icon="fa-solid fa-check" />
+          <font-awesome-icon icon="fa-solid fa-check" id="check" />
 
           <!-- btn trash -->
-          <font-awesome-icon icon="fa-solid fa-trash-can-arrow-up" />
+          <font-awesome-icon icon="fa-solid fa-trash-can-arrow-up" id="trash" />
         </div>
       </li>
     </ul>
@@ -140,6 +140,18 @@ export default {
         justify-content: center;
         align-items: center;
         gap: 20px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      #check {
+        color: #3aee3a;
+      }
+
+      #trash {
+        color: #f44;
       }
     }
   }
